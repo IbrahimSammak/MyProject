@@ -1,0 +1,115 @@
+
+.thumbnails{
+     width: 100%; /* hajm sura */
+  /* display: block;
+  /* height: 300px; /* tul sura */
+  /* object-fit: contain; /* ade mwjud bl sura ka hajm */
+  /* object-fit: cover==> hn sura btflosh la bara */
+  /* object-position:bottom;/*hn mna2i mayle lbdna sura tbyn fi */
+  /* border-width: 2px;
+  /* border-style: solid;
+  /* border-color: red; */
+
+}
+
+
+
+.video-title{
+  font-size: 5 px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  
+}
+
+.video-author{
+  color:rgb(96, 96, 96);
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+
+.video-stats{
+  color: rgb(96, 96, 96);
+  margin-top: 0px;
+  font-size: 12px;
+  
+}
+
+/*.video-preview{
+  width:300px;
+  display: inline-block; /* hn la n2dr njm3 klchi bnfs lclass 3a nfs line */
+  /*vertical-align: top; /* ln5li klchi bl div 3a nfs lmustawa */
+  /*margin-right: 14px; /*dfshna l7ada 3l yamin
+
+}*/
+
+.video-info-grid{ /*hn st3mlna gird krml n2asm kl lcontainer la columns w row mtl b3od nfs chkl */
+  display: grid; /* hn ch8lna lgrid */
+  grid-template-columns: 50px 1fr; /* hn ktbna ade bdna 3adad columns w kl columns ade lmajel te3a */
+}
+
+/*.channel-picture{
+    display: inline-block; l7ta n2dr n3mln 3a nfs satr sura z8ire wl words l7adon 
+    width: 50px;  hajm lfr8 li b3d sura l7ta tse3 ljmle lba3da */
+   /* vertical-align: top;  l7ta n7ot sura bl top
+
+}
+/*.video-info{
+    7tyna kl whde bi div hye w channel-picture krml n2dr n2smn 7ad b3od
+    display:inline-block;*/
+ /* width: 200px; huwe hajm lmasefe t3it jmle aw lparagraph lktbina 3l sater 
+
+}*/
+
+.profile-picture{
+  width: 38px;
+  border-radius: 50px;
+}
+
+.thumbnail-row{
+  margin-bottom: 9px;
+  position: relative;
+
+}
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 17px;
+  row-gap: 40px;
+  
+}
+
+@media (max-width:750px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:751px) and (max-width:999px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:1000px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-time{
+  background-color: black;
+  color: white;
+  position:absolute;
+  bottom: 8px;
+  right: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
